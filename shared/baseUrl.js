@@ -1,0 +1,1 @@
+export const baseUrl = 'http://bookstore-reactnative.herokuapp.com/';

@@ -29,7 +29,7 @@ class Bookshelf extends Component {
         key={index}
         onPress={() => navigate("Book", { bookId: item.id })}
       >
-        <Avatar source={require("./images/a-Dolls-house.jpg")} />
+        <Avatar source={item.imageLink} />
         <ListItem.Content>
           <ListItem.Title>{item.title}</ListItem.Title>
           <ListItem.Subtitle>{item.author}</ListItem.Subtitle>
